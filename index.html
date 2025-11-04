@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站维护中</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .maintenance-container {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        .icon {
+            font-size: 80px;
+            color: #4a6cf7;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        h1 {
+            font-size: 2.2rem;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+        .desc {
+            font-size: 1.1rem;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .time {
+            background: #f0f4ff;
+            color: #4a6cf7;
+            padding: 10px 20px;
+            border-radius: 30px;
+            display: inline-block;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        .contact {
+            text-align: left;
+            margin-top: 20px;
+            color: #718096;
+        }
+        .contact p {
+            margin: 8px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #a0aec0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="maintenance-container">
+        <div class="icon">🔧</div>
+        <h1>网站维护中</h1>
+        <p class="desc">尊敬的用户，为了给您提供更稳定、优质的服务，本站正在进行系统升级与维护。维护期间部分功能可能无法正常使用，给您带来的不便，我们深表歉意！</p>
+        <div class="time">预计恢复时间：2025年XX月XX日 XX:XX</div>
+        <div class="contact">
+            <p><strong>紧急联系：</strong></p>
+            <p>电话：XXX-XXXXXXX</p>
+            <p>邮箱：service@example.com</p>
+        </div>
+        <div class="footer">© 2025 网站名称 版权所有</div>
+    </div>
+</body>
+  </html>
